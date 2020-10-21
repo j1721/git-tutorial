@@ -1,10 +1,11 @@
-for i 0..99 do {
+for i in 0..99  
 if (i % 3 == 0 && i % 5 == 0)
-      print("FizzBuzz","\n");
-else if (i % 3 == 0) 
-      print("Fizz","\n");
-else if (i % 5 == 0) 
-      printf("Buzz","\n");
+      print("FizzBuzz","\n")
+elsif (i % 3 == 0) 
+      print("Fizz","\n")
+elsif (i % 5 == 0) 
+      printf("Buzz","\n")
 else 
-      printf(i,"\n");
-}
+      printf(i,"\n")
+end
+end
