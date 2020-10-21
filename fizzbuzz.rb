@@ -1,4 +1,4 @@
-for i int 0..99 do {
+for i 0..99 do {
 if (i % 3 == 0 && i % 5 == 0)
       print("FizzBuzz","\n");
 else if (i % 3 == 0) 
