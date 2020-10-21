@@ -4,8 +4,8 @@ if (i % 3 == 0 && i % 5 == 0)
 elsif (i % 3 == 0) 
       print("Fizz","\n")
 elsif (i % 5 == 0) 
-      printf("Buzz","\n")
+      print("Buzz","\n")
 else 
-      printf(i,"\n")
+      print(i,"\n")
 end
 end
